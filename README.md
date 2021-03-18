@@ -1,11 +1,11 @@
-# Overview
+# DALL-E FLASK APP
 
-[[Blog]](https://openai.com/blog/dall-e/) [[Paper]](https://arxiv.org/abs/2102.12092) [[Model Card]](model_card.md) [[Usage]](notebooks/usage.ipynb)
+Developed Flask web application for Variational AutoEncoder model in openAI/DALL-E for compression
 
-This is the official PyTorch package for the discrete VAE used for DALL·E.
+Takes image as uploaded input, and displays preprocessed and compressed images.
 
 # Installation
 
-Before running [the example notebook](notebooks/usage.ipynb), you will need to install the package using
 
 	pip install DALL-E
+	pip install Flask
